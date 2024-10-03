@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin:0;
+  
+}
+
+section form{
+    background-color: #070740;
+    color: aliceblue;
+    
+}
+
+
+h2, h4{
+    font-family: "Playwrite ES Deco", cursive;
+}
+
+label{
+    display: block;/*stack labels*/
+    margin: 0.5rem 0;
+}
+img{
+    width: 50px;
+}

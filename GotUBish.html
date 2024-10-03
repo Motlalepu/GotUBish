@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="uft-8">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleGUB.css">
+</head>
+
+<body>
+    <header> 
+    <nav>
+        <ul>
+            <li><img src="C:\Users\nomvu\Downloads\GUB logo.jpeg"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Matches</li>
+            <li><a href="#">Forms</li>
+                <!--How to makae into button-->
+            <li><input type="text" class="sign-in"></li>        
+        </ul>
+    </nav>
+    </header> 
+
+         
+
+<section>
+
+    <h1>GotUGud Registration Form</h1>
+    <p>Please Fill Out This Form</p>
+    <h4>Contact Info And Gender</h4>
+
+    <form action="submit_form.php" method="post">
+    <!--form control goes next-->
+    <fieldset> 
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+        <label for="surname">Surname:</label>   
+            <input type="text" id="surname" required>
+
+        <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+        <label for="gender">Gender:</label>
+            <select name="Gender">
+                    <option value="Woman">Woman</option>
+                    <option value="Man">Man</option>
+                    <option value="Trans-Woman">Trans-Woman</option>
+                    <option value="Trans-Man">Trans-Man</option>
+                    <option value="Gender Non-Conforming">Gender Non-Comforming</option>
+                </select>
+        <label for="newPassword">Password:</label>        
+    </fieldset> 
+    </form>
+
+    <h4>Partner Information</h4>
+    <form> 
+        <fieldset> 
+
+                <label for="gender">What's Your Partners Gender?:</label>
+                <select name="Gender">
+                    <option value="Woman">Woman</option>
+                    <option value="Man">Man</option>
+                    <option value="Trans-Woman">Trans-Woman</option>
+                    <option value="Trans-Man">Trans-Man</option>
+                    <option value="Gender Non-Conforming">Gender Non-Comforming</option>
+                </select>
+
+                <label for="children">How many child/children does your partner have?:</label>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6+</option>
+                </select>
+
+                <label for="age">How old is your partner?:</label>
+                <select>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">20</option>
+                    <option value="31">13</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">28</option>
+                    <option value="41">41</option>
+                </select>
+
+                <label for="ocuppation">What is your partners ocuppation?:</label>
+                <input type="text">
+               
+                <label for="car">What kind of car does your partner have?(main):</label>
+                <input type="text">
+
+                
+                <label for="cars"> How many cars does your partner have?: </label>
+                <select>
+                    <option value="0-3">0-3</option>
+                    <option value="3-6">3-6</option>
+                    <option value="6+">6+</option>
+                </select>
+
+                <label for="martial status">What is the martial status of your parnter?:</label>
+                <select>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divored">Divored</option>
+                    <option value="Widow/Widower">Widow/Widower</option>
+                </select>
+
+                <label for="annivesary">When is your annivesary date?:</label>
+                <input type="date" name="begin" placeholder="dd-mm-yyyy"
+                value="" min="1950-01-01" max="2025-12-31">
+
+                <label for="behaviour">Of late, has their been any behavioual changes?:</label>
+                <select>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                 
+
+            <label for="message">Message:How Did You Meet...?:</label>
+                <textarea id="message" name="massage" rows="10" required></textarea>
+
+                <input type="submit" value="Submit">
+
+                 
+                
+            </form>
+        </fieldset>
+        </section>
+    </body>
+
+</html>
